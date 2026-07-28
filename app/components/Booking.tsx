@@ -15,7 +15,7 @@ export default function Booking() {
           >
             <h2 className="booking-headline">Schedule your visit.</h2>
             <p className="booking-subhead">
-              {`Select your home size and we'll confirm availability within 24 hours.`}
+              {`Select your home size to see your flat-rate price. No hidden fees.`}
             </p>
             <ul className="booking-options" role="list">
               <li>Studio / 1BR — from $140</li>
@@ -26,7 +26,7 @@ export default function Booking() {
               href="mailto:hello@northlight.nyc"
               className="booking-cta"
             >
-              Book your clean
+              Confirm booking
             </a>
           </motion.div>
         </div>
